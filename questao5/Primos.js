@@ -1,28 +1,28 @@
-/*função primeNumbers(num) {
-    let números = new Array();
+/*function primeNumbers(num) {
+    let numbers = new Array();
     for (var i = 0; i <= num; i++) {
-      if (éPrimo(i)){
-        números.push(i);
+      if (isPrime(i)){
+        numbers.push(i);
       }
     }
-    números de retorno;
+    return numbers;
   }
-  função éPrimo(num){
-    for(seja i = 2; i < núm; i++)
+  function isPrime(num) {
+    for(let i = 2; i <num; i++)
       if(num % i === 0) {
-          retorna falso
+          return false
       };
-    retorna num > 1;
+    return num > 1;
   }
   console.log(primeNumbers(1000));*/
 document.addEventListener('DOMContentLoaded', function Primos() {
 
-    mod = 0;
+    mods = 0;
     primos = "";
 
     for (n = 1; n < 1000; n++) {
 
-        mod = 1;
+        mods = 1;
 
         for (z = 1; z < n; z++) {
             mods += n % z === 0 ? 1 : 0;
