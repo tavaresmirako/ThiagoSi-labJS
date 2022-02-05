@@ -5,7 +5,7 @@
         numbers.push(i);
       }
     }
-    return numbers;
+    return numbers;    retorna numero 
   }
   function isPrime(num) {
     for(let i = 2; i <num; i++)
